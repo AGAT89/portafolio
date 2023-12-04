@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--se llama a link de la pagina https://cdnjs.com/libraries/font-awesome para poder agregar icono-->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <title>Portafolio Anthony Arias</title>
+        <link rel="stylesheet" href="estilos.css"> <!--se llama a la configuración de estilos css-->
+    </head>
+    <body>
+        <!-- MENU ENCABEZADO -->
+        <div class="contenedor-header">
+            <header>
+                <div class="logo">
+                    <a href="#">AGAT</a>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#inicio">INICIO</a> </li>
+                        <li><a href="#sobremi">SOBRE MI</a> </li>
+                        <li><a href="#skills">SKILLS</a> </li>
+                        <li><a href="#curriculum">CURRICULUM</a> </li>
+                        <li><a href="#portafolio">PORTAFOLIO</a> </li>
+                        <li><a href="#contacto">CONTACTO</a> </li>
+                    </ul>
+                </nav>
+                <div class="nav-responsive">
+                    <i class="fa-solid fa-bars"></i> <!--se llama a link de la pagina https://fontawesome.com/icons/bars?f=classic&s=solid y se agrega icono-->
+                </div>
+            </header>
+        </div>
+
+        <!-- SECCION INICIO -->
+        <section id="inicio" class="inicio">
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <img src="img/agat.jpg" alt="Anthony Arias">
+                </div>
+                <h1>ANTHONY ARIAS</h1>
+                <h2>Desarrollador Web - Analista Funcional</h2>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a> <!--se llama a link de la pagina https://fontawesome.com/icons/bars?f=classic&s=solid y se agrega icono facebook-->
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a> <!--se llama a link de la pagina https://fontawesome.com/icons/bars?f=classic&s=solid y se agrega icono linkeding-->
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE MI -->
+        <section id="sobremi" class="sobremi" >
+            <div class="contenido-seccion">
+                <h2>Sobre Mí</h2>
+                <p><span>Hola, soy Anthony Arias.</span> Soy un apasionado desarrollador web especializado en la creación de experiencias 
+                digitales atractivas y funcionales. Mi destreza se centra en la implementación de soluciones utilizando HTML y CSS 
+                para construir interfaces web elegantes y responsivas. Además, cuento con habilidades como analista funcional, 
+                lo que me permite comprender a fondo las necesidades del usuario y traducirlas en soluciones tecnológicas efectivas. 
+                Con un enfoque meticuloso en el diseño y la usabilidad, busco constantemente mejorar y optimizar la experiencia del 
+                usuario en la web. ¡Explorar nuevas tecnologías y encontrar soluciones creativas es mi motivación diaria!</p>
+           
+
+                <div class="fila">
+                    <!-- Datos Personales -->
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                27 de junio
+                            </li>
+                            <li>
+                                <strong>Telefono</strong>
+                                +51 981581360
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                aariastevez@gmail.com
+                            </li>
+                            <li>
+                                <strong>Website</strong>
+                                www.agat.com
+                            </li>
+                            <li>
+                                <strong>Dirección</strong>
+                                Av. Brasilia 906 - J. Hunter - Arequipa - Perú
+                            </li>
+                            <li>
+                                <strong>Cargos</strong>
+                                <span>Desarrollador Web & Analista Funcional</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- intereses -->
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+
+                            <Div class="interes">
+                                <i class="fa-solid fa-plane"></i>
+                                <span>VIAJAR</span>
+                            </Div>
+
+                            <Div class="interes">
+                                <i class="fa-solid fa-microchip"></i>
+                                <span>TECNOLOGÍA</span>
+                            </Div>
+
+                            <Div class="interes">
+                                <i class="fa-solid fa-code"></i>
+                                <span>DESARROLLO</span>
+                            </Div>
+
+                            <Div class="interes">
+                                <i class="fa-sharp fa-regular fa-futbol"></i>
+                                <span>FUTBOL</span>
+                            </Div>
+
+                            <Div class="interes">
+                                <i class="fa-solid fa-dog"></i>
+                                <span>PERRITOS</span>
+                            </Div>
+
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    Descargar CV <i class="fa-solid fa-file-arrow-down"></i>
+                <span class="overlay"></span>
+                </button>
+            </div> 
+        </section>
+
+        <!-- SECCION SKILLS -->
+        <section class="skills" id="skills">
+            <div class="contenido-seccion">
+                <h2>Skills</h2>
+                <div class="fila">
+
+                    <!-- SKILLS TECNICOS -->                    
+                    <div class="col">
+                        <h3>Skills Tecnicos</h3>
+                        <div class="skill">
+                            <span>HTML & CSS</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>SQL Server</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>89%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>Power BI</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>Scrum</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>Corel Draw</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SKILLS PROFESIONALES -->  
+                    <div class="col">
+                        <h3>Skills Profesionales</h3>
+                        <div class="skill">
+                            <span>Comunicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>Trabajo en Equipo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>89%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>Creatividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>Dedicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>Proyect Management</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+            </div>
+        </section>
+
+        <!-- SECCION CURRICULUM -->
+        <section id="curriculum" class="curriculum">
+            <div class="contenido-seccion">
+                <h2>Curriculum</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Educacíon</h3>
+                        <div class="item izq">
+                            <h4>Desarrollo de Sistemas de Información</h4>
+                            <span class="casa">Instituto Continental</span>
+                            <span class="fecha">2021 - 2024</span>
+                            <p>La carrera técnica en Desarrollo de Sistemas de Información ofrece una inmersión completa en el mundo de la tecnología 
+                            y la informática. Los estudiantes adquieren habilidades esenciales en programación, gestión de bases de datos y 
+                            seguridad informática, junto con una comprensión profunda de lenguajes de programación y metodologías de desarrollo. 
+                            El enfoque práctico del programa permite a los estudiantes trabajar en proyectos reales, desarrollando habilidades para 
+                            resolver problemas y trabajar en equipo. La formación abarca áreas clave como ciberseguridad y analítica de datos, 
+                            reparando a los graduados para roles en desarrollo de software, análisis de sistemas y administración de bases de datos, 
+                            entre otros. Los graduados emergen listos para enfrentar desafíos tecnológicos en diversos sectores, siendo valiosos 
+                            para empresas que buscan profesionales capaces de aprovechar las últimas tendencias tecnológicas.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Arquitectura de Datos</h4>
+                            <span class="casa">Cibertec</span>
+                            <span class="fecha">2022 - 2025</span>
+                            <p>La carrera técnica en Arquitectura de Datos proporciona a los estudiantes una comprensión profunda de la organización y 
+                                gestión eficiente de la información en entornos tecnológicos. Este programa educativo se centra en desarrollar habilidades 
+                                clave relacionadas con el diseño, implementación y mantenimiento de infraestructuras de datos robustas. Los estudiantes 
+                                exploran conceptos como modelado de datos, normalización de bases de datos, almacenamiento y recuperación de información, 
+                                así como estrategias para garantizar la integridad y seguridad de los datos. La formación práctica incluye la participación 
+                                en proyectos reales, permitiendo a los estudiantes aplicar sus conocimientos en entornos del mundo real. Al completar la 
+                                carrera, los graduados están preparados para desempeñar roles fundamentales en el diseño de arquitecturas de datos eficientes, 
+                                contribuyendo al éxito de organizaciones que dependen de la gestión estratégica de la información para la toma de decisiones 
+                                y la innovación tecnológica.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col derecha">
+                        <h3>Experiencia de Trabajo</h3>
+                        <div class="item der">
+                            <h4>Analista Funcional JR</h4>
+                            <span class="casa">Valor X SAC</span>
+                            <span class="fecha">2016 - actualidad</span>
+                            <p>El rol del Analista Funcional es esencial en el ámbito de la tecnología y los sistemas de información. Este profesional desempeña 
+                                una función crucial al actuar como intermediario entre los usuarios finales y los equipos de desarrollo de software. Su 
+                                responsabilidad principal consiste en comprender a fondo las necesidades y requisitos del usuario, traduciéndolos en especificaciones 
+                                detalladas y comprensibles para los desarrolladores. El Analista Funcional participa en todas las fases del ciclo de vida del 
+                                desarrollo de software, desde la identificación de requisitos hasta la implementación y las pruebas. Además, colabora estrechamente 
+                                con los stakeholders para garantizar que las soluciones propuestas no solo cumplan con los requisitos técnicos, sino que también 
+                                aborden eficazmente los objetivos del negocio. Su capacidad para analizar, documentar y comunicar de manera efectiva es crucial 
+                                para el éxito de los proyectos, ya que contribuye a la creación de sistemas de información que satisfacen las expectativas del 
+                                usuario y agregan valor a la organización.</p>
+                            <div class="conectord">
+                                <div class="circulod">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Administrador de Base de Datos JR</h4>
+                            <span class="casa">Valor X SAC</span>
+                            <span class="fecha">2016 - actualidad</span>
+                            <p>
+                                El Administrador de Bases de Datos Junior desempeña un papel fundamental en el mantenimiento y la gestión eficiente de las bases de 
+                                datos de una organización. Este profesional recién iniciado colabora en la instalación, configuración y actualización de sistemas de 
+                                gestión de bases de datos, asegurando su rendimiento óptimo y su integridad. Además, se encarga de realizar copias de seguridad 
+                                regulares, monitorear la actividad de la base de datos y resolver problemas técnicos que puedan surgir. El Administrador de Bases de
+                                 Datos Junior también trabaja en estrecha colaboración con otros equipos, como desarrolladores de software y analistas, para garantizar
+                                 la coherencia y la eficiencia en el acceso y manipulación de datos. Este rol es crucial para asegurar la disponibilidad y seguridad 
+                                 de la información almacenada, contribuyendo así al éxito operativo y estratégico de la organización en el ámbito de la gestión de 
+                                 datos.</p>
+                            <div class="conectord">
+                                <div class="circulod">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION PORTAFOLIO -->
+        <section id="portafolio" class="portafolio">
+            <div class="contenido-seccion">
+                <h2>PORTAFOLIO</h2>
+                <div clas="galeria">
+
+                    <div class="proyecto">
+                        <img src="img/alm.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Desarrollo Web</h3>
+                            <p>Importaciones</p>
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <img src="img/misti.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Desarrollo Web</h3>
+                            <p>Misti House</p>
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <img src="img/cloud.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Desarrollo Web</h3>
+                            <p>Cloud Analytic Solution</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION CONTACTO -->
+        <section id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <h2>CONTACTO</h2>
+                <div class="fila">
+                    <!-- Formulario -->
+                    <div class="col">
+                        <input type="text" placeholder="Tú Nombre">
+                        <input type="text" placeholder="Número Telefonico">
+                        <input type="text" placeholder="Dirección de Correo">
+                        <input type="text" placeholder="Tema">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button>
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+                    <!-- Mapa -->
+                    <div class="col">
+                        <img src="img/mapa.jpg" alt="">
+                        <div class="info">
+                            ><ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    Av. brasilia 906 - Jacobo Hunter - Arequipa - Perú
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-mobile"></i>
+                                    Llamanos: +51 981581360
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    Email: aariastevez@gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </body>
+</html>
